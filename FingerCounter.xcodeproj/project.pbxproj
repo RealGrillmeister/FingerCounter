@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D25C0C692CEA3B4C0004797D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25C0C502CEA3B480004797D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D25C0C572CEA3B480004797D;
+			remoteInfo = FingerCounter;
+		};
+		D25C0C732CEA3B4C0004797D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25C0C502CEA3B480004797D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D25C0C572CEA3B480004797D;
+			remoteInfo = FingerCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D25C0C582CEA3B480004797D /* FingerCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25C0C682CEA3B4C0004797D /* FingerCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25C0C722CEA3B4C0004797D /* FingerCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D29EA32A2CEBC1D2003899C8 /* Exceptions for "FingerCounter" folder in "FingerCounter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D25C0C572CEA3B480004797D /* FingerCounter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D25C0C5A2CEA3B480004797D /* FingerCounter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D29EA32A2CEBC1D2003899C8 /* Exceptions for "FingerCounter" folder in "FingerCounter" target */,
+			);
+			path = FingerCounter;
+			sourceTree = "<group>";
+		};
+		D25C0C6B2CEA3B4C0004797D /* FingerCounterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FingerCounterTests;
+			sourceTree = "<group>";
+		};
+		D25C0C752CEA3B4C0004797D /* FingerCounterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FingerCounterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D25C0C552CEA3B480004797D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C0C652CEA3B4C0004797D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C0C6F2CEA3B4C0004797D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D25C0C4F2CEA3B480004797D = {
+			isa = PBXGroup;
+			children = (
+				D25C0C5A2CEA3B480004797D /* FingerCounter */,
+				D25C0C6B2CEA3B4C0004797D /* FingerCounterTests */,
+				D25C0C752CEA3B4C0004797D /* FingerCounterUITests */,
+				D25C0C592CEA3B480004797D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D25C0C592CEA3B480004797D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D25C0C582CEA3B480004797D /* FingerCounter.app */,
+				D25C0C682CEA3B4C0004797D /* FingerCounterTests.xctest */,
+				D25C0C722CEA3B4C0004797D /* FingerCounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D25C0C572CEA3B480004797D /* FingerCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25C0C7C2CEA3B4C0004797D /* Build configuration list for PBXNativeTarget "FingerCounter" */;
+			buildPhases = (
+				D25C0C542CEA3B480004797D /* Sources */,
+				D25C0C552CEA3B480004797D /* Frameworks */,
+				D25C0C562CEA3B480004797D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D25C0C5A2CEA3B480004797D /* FingerCounter */,
+			);
+			name = FingerCounter;
+			packageProductDependencies = (
+			);
+			productName = FingerCounter;
+			productReference = D25C0C582CEA3B480004797D /* FingerCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D25C0C672CEA3B4C0004797D /* FingerCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25C0C7F2CEA3B4C0004797D /* Build configuration list for PBXNativeTarget "FingerCounterTests" */;
+			buildPhases = (
+				D25C0C642CEA3B4C0004797D /* Sources */,
+				D25C0C652CEA3B4C0004797D /* Frameworks */,
+				D25C0C662CEA3B4C0004797D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25C0C6A2CEA3B4C0004797D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D25C0C6B2CEA3B4C0004797D /* FingerCounterTests */,
+			);
+			name = FingerCounterTests;
+			packageProductDependencies = (
+			);
+			productName = FingerCounterTests;
+			productReference = D25C0C682CEA3B4C0004797D /* FingerCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D25C0C712CEA3B4C0004797D /* FingerCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25C0C822CEA3B4C0004797D /* Build configuration list for PBXNativeTarget "FingerCounterUITests" */;
+			buildPhases = (
+				D25C0C6E2CEA3B4C0004797D /* Sources */,
+				D25C0C6F2CEA3B4C0004797D /* Frameworks */,
+				D25C0C702CEA3B4C0004797D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25C0C742CEA3B4C0004797D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D25C0C752CEA3B4C0004797D /* FingerCounterUITests */,
+			);
+			name = FingerCounterUITests;
+			packageProductDependencies = (
+			);
+			productName = FingerCounterUITests;
+			productReference = D25C0C722CEA3B4C0004797D /* FingerCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25C0C502CEA3B480004797D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D25C0C572CEA3B480004797D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D25C0C672CEA3B4C0004797D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D25C0C572CEA3B480004797D;
+					};
+					D25C0C712CEA3B4C0004797D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D25C0C572CEA3B480004797D;
+					};
+				};
+			};
+			buildConfigurationList = D25C0C532CEA3B480004797D /* Build configuration list for PBXProject "FingerCounter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D25C0C4F2CEA3B480004797D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D25C0C592CEA3B480004797D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D25C0C572CEA3B480004797D /* FingerCounter */,
+				D25C0C672CEA3B4C0004797D /* FingerCounterTests */,
+				D25C0C712CEA3B4C0004797D /* FingerCounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D25C0C562CEA3B480004797D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C0C662CEA3B4C0004797D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C0C702CEA3B4C0004797D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25C0C542CEA3B480004797D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C0C642CEA3B4C0004797D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C0C6E2CEA3B4C0004797D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D25C0C6A2CEA3B4C0004797D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D25C0C572CEA3B480004797D /* FingerCounter */;
+			targetProxy = D25C0C692CEA3B4C0004797D /* PBXContainerItemProxy */;
+		};
+		D25C0C742CEA3B4C0004797D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D25C0C572CEA3B480004797D /* FingerCounter */;
+			targetProxy = D25C0C732CEA3B4C0004797D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D25C0C7A2CEA3B4C0004797D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D25C0C7B2CEA3B4C0004797D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D25C0C7D2CEA3B4C0004797D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FingerCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = UBMW2J5KMJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FingerCounter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxOfSweden.FingerCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D25C0C7E2CEA3B4C0004797D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FingerCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = UBMW2J5KMJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FingerCounter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxOfSweden.FingerCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D25C0C802CEA3B4C0004797D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxOfSweden.FingerCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FingerCounter";
+			};
+			name = Debug;
+		};
+		D25C0C812CEA3B4C0004797D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxOfSweden.FingerCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FingerCounter";
+			};
+			name = Release;
+		};
+		D25C0C832CEA3B4C0004797D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxOfSweden.FingerCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FingerCounter;
+			};
+			name = Debug;
+		};
+		D25C0C842CEA3B4C0004797D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxOfSweden.FingerCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FingerCounter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D25C0C532CEA3B480004797D /* Build configuration list for PBXProject "FingerCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25C0C7A2CEA3B4C0004797D /* Debug */,
+				D25C0C7B2CEA3B4C0004797D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25C0C7C2CEA3B4C0004797D /* Build configuration list for PBXNativeTarget "FingerCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25C0C7D2CEA3B4C0004797D /* Debug */,
+				D25C0C7E2CEA3B4C0004797D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25C0C7F2CEA3B4C0004797D /* Build configuration list for PBXNativeTarget "FingerCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25C0C802CEA3B4C0004797D /* Debug */,
+				D25C0C812CEA3B4C0004797D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25C0C822CEA3B4C0004797D /* Build configuration list for PBXNativeTarget "FingerCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25C0C832CEA3B4C0004797D /* Debug */,
+				D25C0C842CEA3B4C0004797D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25C0C502CEA3B480004797D /* Project object */;
+}
